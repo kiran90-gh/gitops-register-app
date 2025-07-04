@@ -1,7 +1,7 @@
 pipeline {
-    agent { label "Jenkins-Agent" }
+    agent any
     environment {
-              APP_NAME = "register-app-pipeline"
+              APP_NAME = "register-app-pipeline-image"
     }
 
     stages {
